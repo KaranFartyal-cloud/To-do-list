@@ -1,0 +1,100 @@
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+    * {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+        180deg,
+        rgba(45, 112, 1253, 0.73) 0%,
+        #163e92 100%
+    );
+    }
+
+    .container {
+        position: relative;
+        background-color: #fff;
+        height: 500px;
+        width: 450px;
+        border-radius: 30px;
+        overflow: hidden;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header h2 {
+        margin-top: 20px;
+    }
+
+    .header input {
+        width: 300px; /* Adjust the width as needed */
+        height: 40px; /* Adjust height for better appearance */
+        font-size: 16px; /* Adjust text size */
+        padding: 5px; /* Add some padding for spacing */
+        border: 1px solid #ccc; /* Optional: Add a border */
+        border-radius: 5px; /* Optional: Rounded corners */
+        margin-top: 20px;
+    }
+
+    .header input::placeholder {
+        font-weight: 100;
+        font-size: .75rem;
+    }
+
+    .header input:focus {
+        outline: none;
+    }
+
+    .input button {
+        padding: 12px;
+        border-radius: 5px;
+        border: none;
+        background-color:  rgba(45, 112, 1253, 0.73);
+        color: white;
+    }
+
+    .tasks-list {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .tasks-list:first-child {
+        margin-top: 20px;
+    }
+
+    .to-dos {
+        margin-left: 60px;
+    }
+
+    .to-dos {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        width: 70%;
+    }
+
+    .icons {
+        background-color: rgba(45, 112, 1253, 0.73);
+        color: white;
+        border-radius: 50%;
+        padding: 10px;
+    }
+    
+  
